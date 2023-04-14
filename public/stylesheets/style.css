@@ -22,7 +22,7 @@
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #7911a9;
     border: 0;
     padding: 1%;
     color: white;
@@ -33,7 +33,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: #9810be;
   }
   
   .post-list {
@@ -75,7 +75,7 @@
   }
   
   header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
