@@ -1,50 +1,73 @@
-# Tech Blog CMS
+# Naz's Tech Blog
 
-This is a CMS-style blog site for developers who want to publish articles, blog posts, and their thoughts and opinions. The site includes features such as user registration, authentication, post creation, update and deletion, commenting, and session management.
+This is a CMS-style blog site for developers who write about tech. It allows you to publish articles, blog posts, and your thoughts and opinions. The site includes features such as creating an account, logging in, creating blog posts, updating or deleting blog posts, leaving comments on blog posts, and logging out.
+
+## Deployed Website in Heroku
+Visit my tech blog -> https://naz-tech.herokuapp.com/
 
 ## Getting Started
 
-###Prerequisites
-- Node.js (version 14 or higher)
-- MongoDB (version 4.4 or higher)
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Installation
+### Prerequisites
+- Node.js
+- MongoDB
+
+## Installation
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/your-username/tech-blog-cms.git
+git clone git@github.com:nazyasar/tech-blog.git
 ```
 2. Install the dependencies:
 
 ```
-cd tech-blog-cms
 npm install
 ```
-3. Create a .env file in the root directory of the project and add the following environment variables:
-
-```
-MONGODB_URI=<your-mongodb-uri>
-SESSION_SECRET=<your-session-secret>
-```
-
-Replace <your-mongodb-uri> with the connection string for your MongoDB database, and <your-session-secret> with a secret string for session management.
-
-## Usage
-1. Start the server:
+3. Start the server
 
 ```
 npm start
 ```
 
-2. Open your web browser and go to http://localhost:3000.
+4. Open your web browser and go to `http://localhost:3000`
 
-3. You will be presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in.
+## Usage
 
-4. Click on the "Sign up" link to create a new user account.
+### Creating an account
 
-5. Once you have signed up, you will be redirected to the homepage, where you can view existing blog posts and leave comments.
+To create an account, click the "Sign Up" link in the navigation bar and enter a username and password.
 
-6. Click on the "Dashboard" link to create new posts or edit existing ones.
+### Logging in
 
-7. When you are finished, click on the "Logout" link to sign out of the site.
+To log in, click the "Log In" link in the navigation bar and enter your username and password.
 
+### Creating a blog post
+
+To create a new blog post, click the "Dashboard" link in the navigation bar and then click the "New Post" button. Enter a title and contents for your blog post and click the "Create" button.
+
+### Updating or deleting a blog post
+
+To update or delete a blog post, go to the "Dashboard" page and click the corresponding button next to the blog post you want to update or delete.
+
+### Leaving a comment on a blog post
+
+To leave a comment on a blog post, go to the post's page and enter your comment in the form at the bottom of the page. Click the "Submit" button to save your comment.
+
+### Logging out
+
+To log out, click the "Log Out" link in the navigation bar.
+
+### Built With
+- Node.js
+- Express
+- MongoDB
+- EJS
+- Bootstrap
+
+### Author: Naz Yasar
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nazyasar)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nazyasar/)
+[![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://naz-tech.herokuapp.com/)
+
+![image](https://user-images.githubusercontent.com/55256787/232337420-8a7c9f83-ab9b-483e-b9ca-49eef6fc5e86.png)
